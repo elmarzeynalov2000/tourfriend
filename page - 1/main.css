@@ -1,0 +1,165 @@
+body {
+    font-family: Noto serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.login-form {
+    padding: 40px;
+    width: 300px;
+}
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+h1 {
+    margin-bottom: 10px;
+}
+p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+
+.forgot-password {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8DD3BB;
+    color: #112211;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: rgb(76, 195, 108);
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.signup-link a {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.social-login {
+    display: flex;
+    gap: 10px;
+}
+
+.social-login button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+.social-login .facebook {
+    background-color: white;
+    border: 2px solid #8DD3BB;
+    padding: 5px 5px 5px 5px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.social-login .google {
+    background-color: white;
+    border: 2px solid #8DD3BB;
+    padding: 5px 5px 5px 5px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.social-login .apple {
+    background-color: white;
+    border: 2px solid #8DD3BB;
+    padding: 5px 5px 5px 5px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.social-login button:hover {
+    opacity: 0.9;
+}
+
+.image-container {
+    width: 500px;
+}
+.image-container img {
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.email {
+    font-size: 12px;
+    padding: 8px;
+}
+
+.password {
+    font-size: 12px;
+    padding: 8px;
+}
+
+.divider {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: #888;
+    font-size: 14px;
+    align-items: center;
+    padding: 20px;
+    font-size: 10px;
+}
+
+.divider::before {
+    margin-right: 10px;
+}
+
+.divider::after {
+    margin-left: 10px;
+}
+
+.divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
