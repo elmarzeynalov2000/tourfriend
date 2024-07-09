@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="1.png" alt="">
+          
+        </div>
+        <div class="form-container">
+            <div class="logo">
+                <img src="Logo.svg" alt="">
+            </div>
+            <a href="#" class="back-link"> < Back</a>
+            <h2>Add a payment method</h2>
+            <p>Let’s get you all set up so you can access your personal account.</p>
+            <form>
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" placeholder="4321 4321 4321 4321">
+                
+                <div class="row">
+                    <div class="column">
+                        <label for="exp-date">Exp. Date</label>
+                        <input type="text" id="exp-date" placeholder="02/27">
+                    </div>
+                    <div class="column">
+                        <label for="cvc">CVC</label>
+                        <input type="text" id="cvc" placeholder="123">
+                    </div>
+                </div>
+                
+                <label for="name-on-card">Name on Card</label>
+                <input type="text" id="name-on-card" placeholder="John Doe">
+                
+                <label for="country">Country or Region</label>
+                <input type="text" id="country" placeholder="United States">
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="save-info">
+                    <label for="save-info">Securely save my information for 1-click checkout</label>
+                </div>
+                <button type="submit">Add payment method</button>
+                
+                <p class="terms">
+                    By confirming your subscription, you allow The Outdoor Inn Crowd Limited to charge your card for this payment and future payments in accordance with their terms. You can always cancel your subscription.
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
